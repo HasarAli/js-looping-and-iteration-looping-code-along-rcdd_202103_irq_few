@@ -6,6 +6,8 @@ function countDown(i) {
   }
 }
 
-function writeCards() {
-  
+function writeCards(names, event) {
+  return names.map((name) => {
+    return `Thank you, ${name}, for the wonderful ${event} gift!`;
+  })
 }
