@@ -5,5 +5,3 @@ function countDown(i) {
     console.log(i--);
   }
 }
-
-countDown(10);
