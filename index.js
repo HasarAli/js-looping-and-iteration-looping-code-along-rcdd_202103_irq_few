@@ -2,7 +2,8 @@
 
 function countDown(i) {
   while (i > 0) {
-    console.log(i--);
+    console.log(i);
+    --i;
   }
 }
 
