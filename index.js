@@ -1,7 +1,8 @@
 // Code your solutions in this file
 
 function countDown(i) {
-  while (console.log(i--) > 0) {
+  while (i > 0) {
+    console.log(i--);
   }
 }
 
