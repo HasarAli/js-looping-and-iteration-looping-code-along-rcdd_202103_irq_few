@@ -5,3 +5,7 @@ function countDown(i) {
     console.log(i--);
   }
 }
+
+function writeCards() {
+  
+}
